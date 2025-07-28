@@ -1,1 +1,3 @@
-# PATRON-STRATEGY
+# PATRON-STRATEGY - CONSIGNA
+------------------------------
+Crear un sistema de notificaciones en Spring Boot aplicando el Patrón Strategy, donde cada canal (email, SMS, push) sea una estrategia concreta anotada con @Component e implemente una interfaz común. El servicio NotificationService gestionará las estrategias y permitirá cambiar dinámicamente el canal de envío. Un controlador REST (NotificationController) ofrecerá endpoints para listar, seleccionar y usar los canales. Además, se incluirá un NotificationDemoRunner para mostrar el funcionamiento al iniciar la app. Se sugiere agregar funcionalidades opcionales (multicanal, prioridad, plantillas, registro en H2) y entregar el código con un README.md, incluyendo explicación del patrón, principios SOLID e instrucciones de uso.
